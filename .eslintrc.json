@@ -2,5 +2,15 @@
     "extends": "standard-with-typescript",
     "parserOptions": {
         "project": "./tsconfig.json"
-    }
+    },
+    "rules": {
+        "@typescript-eslint/indent": [
+            "error",
+            4
+        ]
+    },
+    "space-before-function-paren": [
+        "error",
+        "ignore"
+    ]
 }
